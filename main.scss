@@ -1,0 +1,24 @@
+@import 'partials/variabelen';
+@import 'partials/mixins';
+
+
+
+
+html{
+    box-sizing: border-box;
+}
+body {
+    color: $textcolor;
+    background-color: $bgcolor;
+    font-family: $basefont;
+    margin: 0px;
+}
+article[role="main"] { 
+    float: left; 
+    width: 600px / 960px * 100%; 
+} 
+
+@import 'partials/header';
+@import 'partials/content';
+@import 'partials/footer';
+

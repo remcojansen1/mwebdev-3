@@ -1,0 +1,16 @@
+#content-box{
+    max-width: 800px;
+    min-height: 550px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #fff;
+    .box {
+      @include rotatie(30deg);
+      background-color: #ff0000;
+      padding: 15px;
+      margin: 50px;
+      width: 100px;
+      color: #fff;
+    }
+  }
+  

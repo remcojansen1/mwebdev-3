@@ -1,0 +1,97 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: #aed2d2;
+  font-family: verdana, sans-serif;
+  margin: 0px;
+}
+
+article[role="main"] {
+  float: left;
+  width: 62.5%;
+}
+
+header {
+  height: 120px;
+  background-color: #06c;
+  padding: 15px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+  padding: 20px;
+}
+
+header li a:link, header li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+header li a:hover {
+  color: #b3b3b3;
+}
+
+header h2 {
+  color: #fff;
+}
+
+header #tagline.box {
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  background-color: #ff0000;
+  padding: 5px;
+  width: 350px;
+  color: #fff;
+}
+
+#content-box {
+  max-width: 800px;
+  min-height: 550px;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#content-box .box {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  background-color: #ff0000;
+  padding: 15px;
+  margin: 50px;
+  width: 100px;
+  color: #fff;
+}
+
+footer {
+  height: 120px;
+  background-color: #06c;
+  padding: 15px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline;
+  padding: 10px 12px;
+}
+
+footer li a:link, footer li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
